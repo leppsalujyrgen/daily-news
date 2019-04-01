@@ -31,7 +31,8 @@ const ArticleFeed = () => {
                 isSmall={(indeks + 1) % 5 == 0 || (indeks + 2) % 5 == 0 || (indeks + 3) % 5 == 0} 
                 data={article} 
                 key={indeks}
-            />))}        
+            />))}    
+             Made with <a href="https://newsapi.org/" target="__blank">NewsApi.org</a>    
         </div>
     )
 }
