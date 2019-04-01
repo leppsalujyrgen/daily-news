@@ -1,0 +1,54 @@
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #08415c;
+    height: 64px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding-top: 18px;
+    letter-spacing: 2px;
+}
+
+body{
+    margin: 0;
+}
+
+#root{
+    text-align: center;
+}
+
+.feed{
+    max-width: 700px;
+    margin: 100px auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article{
+    width: 48%;
+    text-align: left;
+    margin-bottom: 30px;
+
+    &__image{
+        width: 100%;
+    }
+
+    &__source{
+        color: #08415c;
+    }
+
+    &__title{
+        font-size: 20px;
+        color: black;
+    }
+
+    &--small{
+        width: 32%;
+    }
+}
